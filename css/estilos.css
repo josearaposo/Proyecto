@@ -1,6 +1,6 @@
-html, body {
+/* html, body {
     height: 100%;
-}
+} */
 header {
     position: relative;
     
@@ -8,23 +8,30 @@ header {
 .logo {
     background-color: #76052A;
     width: 39.5%;
-    height: 15hv;
+    height: 100px;
     border-radius: 20px 20px 0 0;
     float: left;
     margin-right: 0.5%;
+    padding-top: 30px;
+    text-align: center;
 }
+img{
+    height: 50px;
+    
+    
+  }
 .menu {
     
     background-color: #E73C50;
     width: 60%;
-    height: 15hv;
+    height: 100px;
     border-radius: 20px 20px 0 0;
     float: left;
+    padding-top: 30px;
+    
      
 }
-img {
-    height: 20px;   
-}
+
 
 nav ul {
     list-style: none; 
@@ -52,26 +59,73 @@ nav a:hover {
 aside {
     background-color: #76052A;
     width: 39.5%;
-    height: 90vh;
+    height: 700px;
     border-radius: 0 0 20px 20px;
     float: left;
     margin-right: 0.5%;
+    text-align: center;
+}
+.izquierda {
+   max-width: 90%;
+   height: auto;
+    
 }
 
 main {
     background-color: #E73C50;
     width: 60% ;
-    height: 90vh;
+    height: 700px;
     border-radius: 0 0 20px 20px;
-    float: left;
+    float: right;
+    text-align: center;
      
+}
+.logoenmain{
+    max-width: 50%;
+    height: auto;
+
+   
+    
+}
+.titulo {
+    color: white;
+
+
 }
 footer {
     background-color: #76052A;
     border-radius: 20px;
     position: absolute;
     bottom: 0;
-    width: 100%;
-    height: 10hv;
+    width: 99%;
+    height: 25px;
     color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 10px;
   }
+
+  .politicas ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0;
+    text-align: center;
+   
+}
+
+.politicas li {
+    display: inline; /*Horizontal*/
+    margin-right: 20px;
+}
+
+.politicas a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.politicas a:hover {
+    text-decoration: underline;
+}
+
