@@ -13,12 +13,13 @@ header {
     float: left;
     margin-right: 0.5%;
     padding-top: 30px;
-    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-items: center;
 }
 img{
     height: 50px;
-    
-    
+     
   }
 .menu {
     
@@ -62,14 +63,42 @@ aside {
     height: 700px;
     border-radius: 0 0 20px 20px;
     float: left;
-    margin-right: 0.5%;
-    text-align: center;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    align-items: center;
+    justify-items: center;
 }
 .izquierda {
    max-width: 90%;
    height: auto;
+
     
 }
+.botonimpresion {
+    max-width: 40%;
+    height: auto;
+    border-radius: 50%;
+    background: #005478;
+    width: 150px;
+  
+  }
+
+  .botonimpresion:hover {
+    background: #76052A;
+  }
+  .botontienda{
+    max-width: 40%;
+    height: auto;
+    border-radius: 50%;
+    background: #005478;
+    width: 200px;
+
+  
+  }
+
+  .botontienda:hover {
+    background: #76052A;
+  }
 
 main {
     background-color: #E73C50;
