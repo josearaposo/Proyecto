@@ -74,7 +74,7 @@ aside {
 
     
 }
-.botonimpresion {
+.boton {
     max-width: 40%;
     height: auto;
     border-radius: 50%;
@@ -83,7 +83,7 @@ aside {
   
   }
 
-  .botonimpresion:hover {
+  .boton:hover {
     background: #76052A;
   }
   .botontienda{
@@ -100,6 +100,12 @@ aside {
     background: #76052A;
   }
 
+  .boton .botonformulario{
+    height: 100px; 
+  }
+
+
+
 main {
     background-color: #E73C50;
     width: 60% ;
@@ -107,6 +113,7 @@ main {
     border-radius: 0 0 20px 20px;
     float: right;
     text-align: center;
+    color: white;
      
 }
 .logoenmain{
@@ -158,3 +165,21 @@ footer {
     text-decoration: underline;
 }
 
+.redes {
+    height: 30px;
+}
+
+input, textarea{
+
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.formulario {
+    border-radius: 5px;
+    padding: 20px;
+}
