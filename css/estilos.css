@@ -1,6 +1,10 @@
-/* html, body {
-    height: 100%;
-} */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
 header {
     position: relative;
     
@@ -141,8 +145,15 @@ footer {
     padding-top: 20px;
     margin-bottom: 10px;
   }
+  .contenedor-navegacion{
+    padding-top: 10px;
+  }
 
-  .politicas ul {
+  .buscador-articulos{
+    display: inline-flex;
+    padding-left: 15px;
+  }
+  .contenedor-navegacion ul {
     list-style: none; 
     padding: 0; 
     margin: 0;
@@ -150,18 +161,19 @@ footer {
    
 }
 
-.politicas li {
+.contenedor-navegacion li {
     display: inline; /*Horizontal*/
     margin-right: 20px;
 }
 
-.politicas a {
+.contenedor-navegacion a {
 
     text-decoration: none;
     color: white;
     font-size: 16px;
+    text-transform: uppercase;
 }
-.politicas a:hover {
+.contenedor-navegacion a:hover {
     text-decoration: underline;
 }
 
@@ -182,4 +194,48 @@ input, textarea{
 .formulario {
     border-radius: 5px;
     padding: 20px;
+}
+
+/* Tienda */
+
+.contenedor-menu-articulos{
+    background-color: #76052A;
+    height: 100px;
+}
+.contenedor {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+    display: grid;
+    grid-template-columns: 1fr;
+	
+}
+
+.titulo {
+	font-size: 24px;
+	padding: 20px 0;
+}
+
+.contenedor-articulos {
+	display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.articulos {
+	border-radius: 10px;
+	min-height: 150px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-color: blue;
+	
+}
+
+.card .textos {
+	height: 100%;
+	
+	
 }
