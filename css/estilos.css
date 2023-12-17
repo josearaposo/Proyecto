@@ -9,7 +9,6 @@
 Estilos aplicados a todos las paginas en general tento en el header , main, aside,.... */
 body {
     position: relative;
-    padding-bottom: 300px;
     display: flex;
     flex-direction: column;
     max-height: 100vh;
