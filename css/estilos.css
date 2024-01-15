@@ -366,8 +366,42 @@ form {
 /* NOSOTROS
 -------------------------------------- */
 .cont-historia {
-    padding: 50px;
+    max-width: 1200px;
+    width: 70%;
+    border-radius: 20px;
+
 }
+
+.cont-historia .bloque{
+    background-color: #E73C50;
+    margin: 0 0 1em;
+
+}
+
+.cont-historia .pregunta{
+    background-color: #005478;
+    border-radius: 20px;
+    color: #fff;
+    margin: 0 0 1em;
+   
+}
+
+.cont-historia .contenido{
+    background-color: #fff;
+    border-radius: 20px;
+    color: #76052A;
+    height: 0px;
+    padding: 0px;
+    overflow: hidden;
+    transition: all .4s ease;
+}
+
+.cont-historia .bloque.activo .contenido{
+    height: 4em;
+}
+
+
+
 
 .img-articulo {
     height: 60px;
@@ -402,6 +436,61 @@ form {
 /* 
 ARTICULO 
 -----------------------------------*/
+
+.cont-grupo-imagenes{
+    width: 80%;
+    background-color: #005478;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 10px;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.cont-grupo-imagenes .mini{
+    overflow: hidden;
+    background-color: #ddd;
+}
+
+.cont-grupo-imagenes .img{
+    height: 70px;
+    transition: all .5s ease;
+    transform:scale(1.4);
+ 
+}
+.cont-grupo-imagenes .mini:hover .img{
+    transform:scale(1);
+}
+
+
+/* ligthbox */
+
+.ligthbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    z-index: 2;
+    display: none;
+}
+
+.ligthbox.activo{
+    display: flex;
+}
+
+
+.cerrar{
+    background-color: #76052A;
+}
+.grande{
+    width: 40%;
+    height: 50vh;
+    margin-left: 450px;
+    margin-top: 230px;
+    border-radius: 20px;
+}
+
 .contenido-caracteristicas {
     background-color: #76052A;
     display: flex;
