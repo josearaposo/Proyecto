@@ -28,3 +28,12 @@ enlaces.forEach((enlace , n) => {
         grande.setAttribute('src', ruta);
     })
 })
+
+grande.addEventListener('click', ()=>{
+    lightbox.classList.remove('activo');
+    grande.setAttribute('src', "");
+})
+
+
+
+
